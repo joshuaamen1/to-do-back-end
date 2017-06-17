@@ -1,11 +1,14 @@
 <h3>Todo #<%= params[:id] %></h3>
 
 <img class="company-logo" src="http://imgur.com/sZlvf44.png" width="1250" height="400"></img>
-    <input type="checkbox">
-    <h2>(Title</h2>
+   
+    <h2>Title</h2>
     <div>
       <input class="button" type="submit" value="Change">
       <input class="button" type="submit" value="Delete">
     </div>
-    <a href="/todo/index">Go Back</a>                
-   
+    <!--     <input class="button" type="submit" value="Go Back">-->
+    <!--<a href="/todo/index">Go Back</a>                -->
+   <form action= "/todo/index">
+       <input class="button" type="submit" value="Go Back">
+   </form>

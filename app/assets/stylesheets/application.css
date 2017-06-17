@@ -36,8 +36,9 @@
   box-shadow: 1px 1px 1px #2970e7;
 }
 
-h2{
+h1{
     display: inline-block;
+    text-align: left
 }
 
 ul{
@@ -83,4 +84,8 @@ span{
 #add-new-todo-button{
   display: block;
   margin-top: 10px;
+}
+
+imput{
+    text-align: left
 }
