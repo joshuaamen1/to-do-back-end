@@ -1,3 +1,6 @@
+h1{
+    color: white;
+}
 ul{
   list-style: none;
   font-size: 35px;
@@ -6,6 +9,10 @@ ul{
 li{
   margin-bottom: 10px;
   padding: 5px;
+}
+
+body{
+    background-color: black;
 }
 
 a{
@@ -21,7 +28,7 @@ a:hover{
 li:hover{
   background-color: #FF7043;
   border-radius: 3px;
-  color: #2970e7;
+  color: white;
 }
 
 span{
