@@ -10,6 +10,17 @@ class TodoController < ApplicationController
         t.save
         redirect_to "/todo/show/#{t.id}"
     end
+    def create
+        t = Todo.new
+        t.description = params['description']
+        t.save
+        redirect_to "/todo/show/#{ t.id }"
+    end
+    def new
+    end
+    def edit
+        @todo = Todo.find_by_id(params[:id])
+    end
     #def show
     #todo_id = params[:id]
    # The ... signifies that there is more code in this section, but is not shown in the example for the sake of brevity
